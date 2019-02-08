@@ -1,6 +1,6 @@
 private double fractionLength = .8; 
 private int smallestBranch = 6; 
-private double branchAngle = Math.random();  
+private double branchAngle = (Math.random()*2)-1;  
 public void setup() 
 {   
 	size(640,480);    
